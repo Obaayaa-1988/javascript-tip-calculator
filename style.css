@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Assistant:wght@200&family=Corinthia:wght@700&family=Cormorant+Garamond:wght@300&family=Kalam:wght@300&family=Oswald:wght@200&family=Poppins&family=Tajawal:wght@200;300;400&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0
+}
+.body{
+    font-family: "Poppins";
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px
+}
+
+section{
+    background-color: rgb(82, 11, 149);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculate{
+    width: 40rem;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+    font-size: 1.8rem;
+    background-color: brown;
+    color: white;
+    padding: 1rem;
+}
+
+form,
+form > *{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1.6rem;
+}
+
+form div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input,
+select {
+    font-size: 1.6rem;
+    padding: 7px;
+    width: 20rem;
+    text-align: center;
+}
+
+.btn{
+    background-color: rgb(23, 22, 22);
+    color: antiquewhite;
+    margin: 7px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: orangered;
+}
+
+.error{
+    color: red;
+    display: none;
+}
+
+.result{
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.result > *{
+    background-color: rgb(234, 225, 225);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-weight: bolder;
+
+}
+
+.total{
+    color: red;
+}
