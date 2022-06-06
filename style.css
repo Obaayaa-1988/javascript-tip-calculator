@@ -75,6 +75,7 @@ select {
 .error{
     color: red;
     display: none;
+    
 }
 
 .result{
